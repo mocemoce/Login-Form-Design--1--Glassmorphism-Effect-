@@ -1,0 +1,71 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glassmorphism Effect Log-in Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="container" id="container">
+
+        <div class="form-container register">
+            <form>
+                <h1>Register</h1>
+        
+                <input type="text" id="username" placeholder="UserName">
+                <input type="password" id="password" placeholder="Password">
+                <input type="password" id="confirmPassword" placeholder="Confirm Password">
+        
+                <button id="registerBtn">Register</button>
+                <span>Or Register With</span>
+                
+                <div class="social-icons">
+                    <a href="#"><i class='bx bxl-facebook-circle' ></i></a>
+                    <a href="#"><i class='bx bxl-google' ></i></a>
+                    <a href="#"><i class='bx bxl-linkedin-square' ></i></a>
+                    <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+                </div>
+            </form>
+        </div>
+        
+        <div class="form-container login">
+            <form>
+                <h1>Login</h1>
+        
+                <input type="text" id="loginUsername" placeholder="UserName">
+                <input type="password" id="loginPassword" placeholder="Password">
+                <a href="#">Forgot Your Password?</a>
+        
+                <button id="loginBtn">Login</button>
+                <span>Or Login With</span>
+                
+                <div class="social-icons">
+                    <a href="#"><i class='bx bxl-facebook-circle' ></i></a>
+                    <a href="#"><i class='bx bxl-google' ></i></a>
+                    <a href="#"><i class='bx bxl-linkedin-square' ></i></a>
+                    <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+                </div>
+            </form>
+        </div>
+
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel left">
+                    <h2>Welcome Back.</h2>
+                    <p>Login to the website.</p>
+                    <button class="hidden" id="login">Login</button>
+                </div>
+                <div class="toggle-panel right">
+                    <h2>Hello, Welcome to our website.</h2>
+                    <p>Register to use the website.</p>
+                    <button class="hidden" id="register">register</button>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </div>
+    
+    
+</body>
+</html>
